@@ -1,3 +1,11 @@
+####################################
+#
+#    IPsec between UE and UPF
+#    Abdul Aziz/Hussaini/Ezekiel
+#    Carleton University
+#
+####################################
+
 from scapy.all import * 
 from scapy.config import conf 
 
