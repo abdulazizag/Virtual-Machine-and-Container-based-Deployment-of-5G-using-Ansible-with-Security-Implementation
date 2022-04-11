@@ -15,7 +15,7 @@ In this project we demonstrate two 5G deployment options. First, a container-bas
 
 ## Project Documentation
 
-User documentation can be found below for the two options deployed for the project
+The project documentation for the two deployed options can be found on the following links: 
 - [Docker Deployment with Security Implementation](https://github.com/AbdulAziz-Gondal/Virtual-Machine-VM-and-Container-based-Deployment-of-5G-using-Ansible-with-Security-Implementation/blob/main/Docker%20Deployment%20with%20IPsec/Readme.md)
 - [Virtual Machine Deployment with Free5GC and UERANSIM]()
 
