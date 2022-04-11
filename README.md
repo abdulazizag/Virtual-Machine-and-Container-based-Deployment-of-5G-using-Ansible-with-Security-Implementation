@@ -4,8 +4,8 @@
 
 - [Project Overview](#project-overview)
 - [Project Documentation](#documentation)
-    * [Docker Deployment with Security Implementation]
-    * [Virtual Machine Deployment with Free5GC and UERANSIM]
+    * [Docker Deployment with Security Implementation]()
+    * [Virtual Machine Deployment with Free5GC and UERANSIM]()
 - [Project Members](#project-members)
 
 
@@ -27,4 +27,5 @@ User documentation can be found below for the two options deployed for the proje
  -  **Hussaini Zubairu**
 
 **Course:** 5G Networks - Advanced Topics in Communications Systems (SYSC5804)
+
 **University:** Carleton University
