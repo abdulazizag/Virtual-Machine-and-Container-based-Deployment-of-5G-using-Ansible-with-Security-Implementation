@@ -27,5 +27,4 @@ User documentation can be found below for the two options deployed for the proje
  -  **Hussaini Zubairu**
 
 **Course:** 5G Networks - Advanced Topics in Communications Systems (SYSC5804)
-
 **University:** Carleton University
