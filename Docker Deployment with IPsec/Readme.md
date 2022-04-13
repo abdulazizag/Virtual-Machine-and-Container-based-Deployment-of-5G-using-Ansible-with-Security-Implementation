@@ -31,3 +31,11 @@ Ansible runs all the network entities in separate containers. This process is sh
 
 ![](Results/2-Running_containers.PNG)
 
+We verify the running containers using the command:
+
+``` sudo docker ps ```
+
+This command shows all the running containers in the system and this is shown in the Figure.
+
+![](Results/3-Check_Running_dockers.PNG )
+
