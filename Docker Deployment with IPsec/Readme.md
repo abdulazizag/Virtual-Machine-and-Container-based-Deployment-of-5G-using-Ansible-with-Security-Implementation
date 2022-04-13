@@ -2,7 +2,7 @@
 
 [In Progress...]
 
-### Deployment Steps                
+### Docker-based Network Deployment Steps                
 Follow the steps to deploy the network.
 
 **1. Installing Prerequisites:**
@@ -15,7 +15,7 @@ sudo apt-get install python-minimal
 sudo apt -y install ansible
 ```
 
-**2. Running Ansible Playbook to deploy the Network:**
+**2. Running Ansible Playbook to Deploy the Network:**
 
 Deploy the network using the following command:
 
@@ -31,11 +31,33 @@ Ansible runs all the network entities in separate containers. This process is sh
 
 ![](Results/2-Running_containers.PNG)
 
+**3. Verifying the Deployed Network:**
+
 We verify the running containers using the command:
 
 ``` sudo docker ps ```
 
 This command shows all the running containers in the system and this is shown in the Figure.
 
-![](Results/3-Check_Running_dockers.PNG )
+![](Results/3-Check_Running_dockers.PNG)
 
+**4. Verifying the Internet Connectivity:**
+
+Now test the internet connectivity of the UE once the network is deployed. Access the UE container via the terminal using the following command:
+
+``` docker exec -ti ue bash ```
+
+Now verify the connectivity using Ping command:
+
+``` ping google.com ```
+
+![](Results/4-UE_ping.PNG)
+
+### IPsec Security Implementation
+
+- installing scapy
+- copy script in docker
+- install scapy in each container
+- run script using python IPSec_enc.py
+- run Sniff on another terminal
+- run sniff on UPF
