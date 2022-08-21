@@ -19,6 +19,7 @@ The project documentation for the two deployed options can be found on the follo
 - [Docker Deployment with Security Implementation](https://github.com/AbdulAziz-Gondal/Virtual-Machine-VM-and-Container-based-Deployment-of-5G-using-Ansible-with-Security-Implementation/blob/main/Docker%20Deployment%20with%20IPsec/Readme.md)
 - [Virtual Machine Deployment with Free5GC and UERANSIM]()
 
+For more details, kindly review the Final Report of the project.
         
 ### Project Members
  
