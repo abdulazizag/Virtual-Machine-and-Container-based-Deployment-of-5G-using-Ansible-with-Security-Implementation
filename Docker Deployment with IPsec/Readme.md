@@ -1,6 +1,5 @@
 # Docker Deployment with Security Implementation
 
-[In Progress...]
 
 ### Docker-based Network Deployment Steps                
 Follow the steps to deploy the network.
@@ -52,12 +51,3 @@ Now verify the connectivity using Ping command:
 ``` ping google.com ```
 
 ![](Results/4-UE_ping.PNG)
-
-### IPsec Security Implementation
-
-- installing scapy
-- copy script in docker
-- install scapy in each container
-- run script using python IPSec_enc.py
-- run Sniff on another terminal
-- run sniff on UPF
